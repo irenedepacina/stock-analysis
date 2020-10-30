@@ -41,6 +41,8 @@ The purpose of the stock analysis is to edit and refactor the original VBA scrip
 The following images represent the run time for years 2017 and 2018 using the refactored code: 
 
 ![](https://github.com/irenedepacina/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
+
+
 ![](https://github.com/irenedepacina/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 ## Summary 
@@ -60,6 +62,7 @@ The following images represent the run time for years 2017 and 2018 using the re
 The following images shows the performance of the original and refactored script based on run time in 2017:
 
 ![](https://github.com/irenedepacina/stock-analysis/blob/main/Resources/VBA_original_2017.png)
+
 ![](https://github.com/irenedepacina/stock-analysis/blob/main/Resources/VBA_refactored_2017.png)
 
 ### How do these pros and cons apply to refactoring the original VBA script?
