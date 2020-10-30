@@ -59,7 +59,7 @@ The following images represent the run time for years 2017 and 2018 using the re
     - The program presented a lot of bugs
     - Time consuming
 
-The following images shows the performance of the original and refactored script based on run time in 2017:
+The following images show the performance of the original and refactored script based on run time in 2017:
 
 ![](https://github.com/irenedepacina/stock-analysis/blob/main/Resources/VBA_original_2017.png)
 
