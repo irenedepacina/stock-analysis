@@ -27,15 +27,15 @@ The purpose of the stock analysis is to edit and refactor the original VBA scrip
             tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
                           
         End If
-    This statement is checking if the current and previous row are the same the ticker. If the values the cells are not the same, then the program knows a new ticker has been selected and new starting price needs to be outputted.
+    This statement is checking if the current and previous row are the same ticker. If the values the cells are not the same, then the program knows a new ticker has been selected and new starting price needs to be outputted.
 
 7. An `if-then` statement was created to check if the current row is the last row with the selected ticker. 
         
         If Cells(i + 1, 1).Value <> tickers(tickerIndex) And Cells(i + 1, 1).Value <> Cells(i, 1) Then
 
             tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
-    This statement is checking if the current and following row are the same. If values in the cell does not match the ticker and the row are of a different ticker, then the program knows that a new ticker has been selected and the ending price needs to be outputted.
-8. An `if-then` statement was created to increase the `tickerIndex` if the next row's ticker does not match the previous row's ticker. If the conidtion in Step 7 has been met, the program will loop again with the next ticker.
+    This statement is checking if the current and following row are the same. If the values in the cells are not the same, then the program knows that a new ticker has been selected and the ending price needs to be outputted.
+8. An `if-then` statement was created to increase the `tickerIndex` if the next row's ticker does not match the previous row's ticker. If the condition in Step 7 has been met, the program will loop again with the next ticker.
 9. A `for` loop was created to loop through the arrays `tickers`, `tickerVolumes`, `tickerStartingPrices` and `tickerEndingPrices`. The results were outputted to "Ticker", "Total Daily Volume", and "Return" columns in the spreadsheet. 
 
 The following images represent the run time for years 2017 and 2018 using the refactored code: 
